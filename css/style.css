@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  
+
+}
+.align-center{
+    align-items: center ;
+}
+a{
+    text-decoration: none;
+}
+ul, ol{
+    list-style: none;
+}
+
+.body{
+    font-family:"open sans" sans-serif;
+}
+
+
+ /* nav bar starts here*/
+ nav{
+    background-color: #02918c;
+ }
+ .logo{
+    width: 30%;
+ }
+ .menu{
+    width: 70%;
+ }
+ .menu ul{
+    text-align: right;
+ }
+ .menu ul li{
+    display: inline-block;
+ }
+ .menu ul li a{
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+ }
+ .menu ul li:hover a{
+    background-color: #cfc91d;
+    color: aqua;
+    transition: 300ms;
+
+ }
+ 
+/* nav bar ends here*/
+
+/*Bnaer Start */
+#banner{
+    background-image: url(../images/C-_Users_Dell_Desktop_My-folio_images_logo.jpg);
+    height: 730px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: rgba(0, 0, 0,0.34 );
+    background-blend-mode: multiply;
+
+}
+
+#banner .bannercnt{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+#banner .bannercnt h3{
+    font-weight: 30px;
+    font-size: 30px;
+    text-transform: lowercase;
+
+}
+
+#banner .bannercnt h1{
+    font-size: 50px;
+    font-weight: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+
+}
+
+#banner .bannercnt p{
+    font-size: 30px;
+    font-weight: 15px;
+
+}
+#banner .bannercnt a{
+    width: 120px;
+    height: 40px;
+    background-color: #cfc91d;
+    display: block;
+    color: rgb(2, 2, 2);
+    margin: auto;
+    font-size: 14px;
+    font-weight: 200px;
+    line-height: 40px;
+    border-radius: 10px;
+}
+#banner .bannercnt img{
+    margin: 50px 0;
+    display:inline-block;
+
+    }
+#banner .row{
+    
+    height: 730px;
+}
+/*Bnaer End */
